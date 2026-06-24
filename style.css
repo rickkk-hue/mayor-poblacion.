@@ -1,0 +1,156 @@
+body{
+
+    font-family: Arial, sans-serif;
+
+    text-align: center;
+
+    margin: 0;
+
+    min-height: 100vh;
+
+    background-image: url("../img/fondo1.jpg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+}
+
+/* Títulos */
+
+h1,
+h2,
+.vs{
+
+    color: white;
+
+    text-shadow: 2px 2px 5px black;
+}
+
+
+
+.contenedor{
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 40px;
+
+    margin-top: 30px;
+
+    flex-wrap: wrap;
+}
+
+
+.pais{
+
+    background: rgba(255,255,255,0.30);
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    backdrop-filter: blur(4px);
+
+    box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+
+    width: 300px;
+}
+
+
+
+img{
+
+    width: 250px;
+
+    height: 150px;
+
+    object-fit: cover;
+
+    border: 2px solid white;
+
+    border-radius: 8px;
+}
+
+
+.poblacion{
+
+    color: white;
+
+    font-weight: bold;
+
+    text-shadow: 1px 1px 3px black;
+
+    min-height: 30px;
+
+    margin: 10px 0;
+}
+
+
+button{
+
+    padding: 10px 20px;
+
+    margin-top: 10px;
+
+    cursor: pointer;
+
+    border: none;
+
+    border-radius: 5px;
+
+    background: #0077ff;
+
+    color: white;
+
+    font-size: 16px;
+
+    transition: 0.3s;
+}
+
+button:hover{
+
+    background: #005fcc;
+
+    transform: scale(1.05);
+}
+
+
+.vs{
+
+    font-size: 40px;
+
+    font-weight: bold;
+}
+
+#resultado{
+
+    margin-top: 20px;
+
+    color: white;
+
+    text-shadow: 2px 2px 5px black;
+
+    min-height: 40px;
+}
+
+
+#puntaje{
+
+    color: gold;
+}
+
+
+
+.siguiente{
+
+    display: block;
+
+    margin: 20px auto;
+}

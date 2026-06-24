@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayor Población</title>
+
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+
+    <h1> ¿Qué país tiene más habitantes?</h1>
+
+    <h2>
+        Puntaje:
+        <span id="puntaje">0</span>
+    </h2>
+
+    <div class="contenedor">
+
+        <div class="pais">
+
+            <img id="img1">
+
+            <h2 id="nombre1"></h2>
+
+         
+            <p id="poblacion1" class="poblacion"></p>
+
+            <button onclick="elegir(1)">
+                Elegir
+            </button>
+
+        </div>
+
+        <div class="vs">
+            VS
+        </div>
+
+        <div class="pais">
+
+            <img id="img2">
+
+            <h2 id="nombre2"></h2>
+
+            <p id="poblacion2" class="poblacion"></p>
+
+            <button onclick="elegir(2)">
+                Elegir
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <h2 id="resultado"></h2>
+
+    <button class="siguiente" onclick="cargarPaises()">
+        Siguiente ronda
+    </button>
+
+    <script src="./script/script.js"></script>
+
+</body>
+</html>
